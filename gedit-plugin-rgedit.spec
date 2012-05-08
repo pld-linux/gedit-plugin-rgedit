@@ -1,4 +1,4 @@
-# 
+#
 # TODO:
 #	- update Requires
 #
@@ -6,15 +6,15 @@ Summary:	rgedit plugin for gedit
 Summary(pl.UTF-8):	Wtyczka rgedit dla gedita
 Name:		gedit-plugin-rgedit
 Version:	0.7.1.0
-Release:	4
+Release:	5
 License:	GPL
 Group:		X11/Applications/Editors
 Source0:	http://downloads.sourceforge.net/rgedit/rgedit-%{version}.tar.bz2
 # Source0-md5:	87ae1727a0c5cd854bb888448643ead9
 URL:		http://sourceforge.net/projects/rgedit/
-BuildRequires:  rpm-pythonprov
+BuildRequires:	rpm-pythonprov
 Requires:	R
-Requires:	gedit2 >= 2.22.0
+Requires:	gedit >= 2.22.0
 Requires:	python-modules
 Requires:	python-vte
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
